@@ -9,9 +9,8 @@
     "salla"
   ],
   "main": "./app.js",
-  "scripts": {
-    "test": "mocha",
-    "prepare": "husky install"
+  "scripts": {          
+    "start": "node ./app.js"
   },
   "dependencies": {
     "@salla.sa/passport-strategy": "~1.0",
