@@ -10,7 +10,7 @@
   ],
   "main": "./app.js",
   "scripts": {          
-    "start": "node ./app.js"
+    "start": "npm i; node ./app.js"
   },
   "dependencies": {
     "@salla.sa/passport-strategy": "~1.0",
