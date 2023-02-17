@@ -8,7 +8,7 @@
     "passport",
     "salla"
   ],
-  "main": "./src/init.js",
+  "main": "./app.js",
   "scripts": {
     "test": "mocha",
     "prepare": "husky install"
