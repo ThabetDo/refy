@@ -36,8 +36,8 @@ passport.deserializeUser(function (obj, done) {
 
 // we initialize our Salla API
 const SallaAPI = new SallaAPIFactory({
-  clientID: CLIENT_ID,
-  clientSecret: CLIENT_SECRET,
+  clientID: "117c5f27435b347ab55792e39ada8d2d",
+  clientSecret: "da8d72b7ec0a49b8bbe126a42b6a944c",
   callbackURL: "http://localhost:8081/oauth/callback",
 });
 
